@@ -1,16 +1,24 @@
 {
-    "name": "netgen/media-site-data",
-    "description": "Demo data for Netgen Media Site",
+    "name": "se7enxweb/media-site-data",
+    "description": "Demo data for se7enxweb / Netgen Media Site (eZ Platform 3.3 era)",
+    "homepage": "https://github.com/se7enxweb/media-site-data",
     "license": "GPL-2.0-only",
     "authors": [
+        {
+            "name": "se7enxweb",
+            "homepage": "https://se7enx.com"
+        },
         {
             "name": "Netgen",
             "homepage": "https://netgen.io"
         }
     ],
+    "replace": {
+        "netgen/media-site-data": "self.version"
+    },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.2.x-dev"
+            "dev-2.x": "2.2.x-dev"
         }
     }
 }
